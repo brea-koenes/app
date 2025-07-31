@@ -3,20 +3,16 @@ import streamlit as st
 # Page setup
 st.set_page_config(page_title="Résumé", page_icon="📄")
 
-# Top section with image and name
+# Top section with image beside name and info
 col1, col2 = st.columns([1, 4])
 
 with col1:
-    st.image("headshot.png", width=140) 
+    st.image("headshot.png", width=140)
 
 with col2:
     st.markdown("""
     # Brea Koenes  
-    **Systems Analyst | GenAI | NLP | ML Ops | Supply Chain**
-    
-    📍 Seattle, WA  
-    📧 breakoenes.com  
-    🌐 [LinkedIn](https://www.linkedin.com/in/brea-koenes/)
+    📧 breakoenes.com | 🌐 [LinkedIn](https://www.linkedin.com/in/brea-koenes/)
     """)
 
 st.markdown("---")
