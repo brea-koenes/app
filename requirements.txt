@@ -1,1 +1,8 @@
 streamlit
+xgboost
+scikit-learn
+pandas
+numpy
+nltk
+gensim
+joblib
