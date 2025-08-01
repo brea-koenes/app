@@ -46,7 +46,7 @@ st.title('Product Outage Classifier')
 st.write('Enter customer text to predict if it indicates a product outage.')
 
 # Text input from user
-user_input = st.text_area("Enter customer text here:")
+user_input = st.text_area("Enter text here:")
 
 if st.button('Predict'):
     if user_input:

@@ -12,7 +12,11 @@ with col1:
 with col2:
     st.markdown("""
     # Brea Koenes  
-    📧 breakoenes.com | 🌐 [LinkedIn](https://www.linkedin.com/in/brea-koenes/)
+    **Systems Analyst | Data Science Student**
+
+    📍 Seattle, WA  
+    📧 breakoenes.com  
+    🌐 [LinkedIn](https://www.linkedin.com/in/brea-koenes/)
     """)
 
 st.markdown("---")

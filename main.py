@@ -29,10 +29,10 @@ st.markdown(
     """
     <div class="bio-text">
     Hi, my name is <b>Brea Koenes</b>.<br><br>
-    I'm a professional with 3 years of experience in Corporate Technology at Starbucks, working as a Systems Analyst focused on building reliable systems in cutting-edge cloud platforms.<br><br>
-    I received my undergraduate degree in Data Science in 2022, and am graduating with my Master's in Data Science from Eastern University this August 2025.<br><br>
-    My career aspirations are to continue working in technology and to pursue my commitment to lifelong learning.<br><br>
-    When I'm not working, I'm enjoying hikes in my home state, Washington.
+    I'm a Systems Analyst in Corporate Technology at Starbucks, where I building reliable systems in cutting-edge cloud platforms.<br><br>
+
+    I received my Bachelor's in Data Science in 2022, and am graduating with my Master's in Data Science from Eastern University this August 2025.<br><br>
+    My career aspirations are to continue working in technology and to pursue my commitment to lifelong learning. When I'm not working, I'm enjoying hikes in my home state, Washington.
     </div>
     """,
     unsafe_allow_html=True
