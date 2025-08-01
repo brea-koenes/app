@@ -41,8 +41,27 @@ with open('final_model.pkl', 'rb') as f:
 # Define the best threshold found during model evaluation
 best_thresh = 0.5
 
-# Streamlit App Layout
+# --- APP INTRODUCTION SECTION ---
 st.title('Product Outage Classifier')
+st.markdown(
+    """
+    <div style="background-color:#f7f7fa; border-radius:10px; padding:1.5em 2em; margin-bottom:1.5em; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+        <span style="font-size:1.1em;">
+        <b>This application showcases a machine learning model designed to classify social media posts as either product outage-related or not outage-related.</b>
+        <br><br>
+        The app is built to support <b>Starbucks</b> in identifying customer-reported product availability issues from public sentiment data.
+        <br><br>
+        The interface allows users to input social media-style text, which is then processed by the trained classification model. The model returns a prediction indicating whether the post is likely referencing a product outage.
+        <br><br>
+        <i>
+        Detailed explanation of the problem statement, methodological approach—including data preparation, model training, and evaluation—and a summary of analytical results. Evaluation metrics such as <b>F1 score, precision, recall, and confusion matrix</b> are presented to illustrate the model’s effectiveness, especially in handling class imbalance and identifying minority-class posts.
+        </i>
+        </span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 st.write('Enter customer text to predict if it indicates a product outage.')
 
 # Text input from user
@@ -69,6 +88,3 @@ if st.button('Predict'):
             st.success("Prediction: No Outage")
     else:
         st.warning("Please enter some text to get a prediction.")
-
-st.markdown("---")
-st.write("Note: This is a demonstration app. The accuracy depends on the model's performance and the quality of the input text.")
