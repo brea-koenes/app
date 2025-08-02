@@ -45,27 +45,28 @@ best_thresh = 0.5
 st.title('Product Outage Classifier')
 st.markdown(
     """
-    <div style="background-color:#f7f7fa; border-radius:10px; padding:1.5em 2em; margin-bottom:1.5em; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-        <span style="font-size:1.1em;">
+    <div style="background-color:#f7f7fa; border-radius:12px; padding:2em 2em 1em 2em; margin-bottom:2em; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+        <span style="font-size:1.15em;">
         <b>This application showcases a machine learning model designed to classify social media posts as either product outage-related or not outage-related.</b>
         <br><br>
         The app is built to support <b>Starbucks</b> in identifying customer-reported product availability issues from public sentiment data.
         <br><br>
         The interface allows users to input social media-style text, which is then processed by the trained classification model. The model returns a prediction indicating whether the post is likely referencing a product outage.
         <br><br>
-        <i>
-        Detailed explanation of the problem statement, methodological approach—including data preparation, model training, and evaluation—and a summary of analytical results. Evaluation metrics such as <b>F1 score, precision, recall, and confusion matrix</b> are presented to illustrate the model’s effectiveness, especially in handling class imbalance and identifying minority-class posts.
-        </i>
+        <b>Project Overview:</b>
+        <ul style="margin-top:0.5em; margin-bottom:0.5em;">
+            <li><b>Problem Statement:</b> Reliance on inventory data alone can miss product outages due to under-reporting by store staff. This app leverages customer sentiment to fill those gaps.</li>
+            <li><b>Methodology:</b> Data preparation, model training, and evaluation using natural language processing and machine learning techniques.</li>
+            <li><b>Results:</b> Evaluation metrics such as <b>F1 score, precision, and recall</b> were used to assess and optimize model effectiveness, resulting in a model that can predict product outages.</li>
+        </ul>
         </span>
     </div>
     """,
     unsafe_allow_html=True
 )
 
-st.write('Enter customer text to predict if it indicates a product outage.')
-
 # Text input from user
-user_input = st.text_area("Enter text here:")
+user_input = st.text_area("Enter customer text:")
 
 if st.button('Predict'):
     if user_input:

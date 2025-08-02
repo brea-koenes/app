@@ -12,12 +12,12 @@ st.write(
 projects = [
     {
         "name": "Probabilistic Sequence Models",
-        "description": "Hidden Markov Models (HMMs) and the Viterbi algorithm implemented in Python. This is work that I did at Eastern University, so the repository is private. To view it, contact me with your email and I will add you as a collaborator",
+        "description": "Hidden Markov Models (HMMs) and the Viterbi algorithm implemented in Python. This is work that I did at Eastern University, so the repository is private. To view it, contact me with your email and I will add you as a collaborator.",
         "link": "https://github.com/brea-koenes/probabilistic-sequence-models"
     },
     {
         "name": "N-Gram Language Models",
-        "description":"N-gram language models implemented in Python, showcasing the use of n-grams for text prediction and analysis. This is work that I did at Eastern University, so the repository is private. To view it, contact me with your email and I will add you as a collaborator",
+        "description":"N-gram language models implemented in Python, showcasing the use of n-grams for text prediction and analysis. This is work that I did at Eastern University, so the repository is private. To view it, contact me with your email and I will add you as a collaborator.",
         "link": "https://github.com/brea-koenes/ngram-language-models"
     },
     {
