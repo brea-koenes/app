@@ -1,9 +1,10 @@
+# Ensure streamlit is imported
 import streamlit as st
 
 # Page setup
 st.set_page_config(page_title="Résumé", page_icon="📄")
 
-# Top section with image beside name and info
+# Top section with image, name, and info
 col1, col2 = st.columns([1, 4])
 
 with col1:
@@ -61,7 +62,7 @@ Easter University
 Calvin University
 """)
 
-# Projects section
+# Main projects section
 st.markdown("### 🧪 Notable Projects")
 st.markdown("""
 - **Machines Doing the Thinking** – Presentation on ethical LLM use in coursework 

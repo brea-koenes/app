@@ -1,8 +1,12 @@
 streamlit
-xgboost
+re
 scikit-learn
+string
+nltk
 pandas
 numpy
-nltk
-gensim
 joblib
+transformers
+lightgbm
+gensim
+torch

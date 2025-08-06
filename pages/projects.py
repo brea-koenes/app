@@ -1,7 +1,10 @@
+# Ensure streamlit is imported
 import streamlit as st
 
+# Set up the page configuration
 st.set_page_config(page_title="My Projects", layout="wide")
 
+# Set page title and introduction
 st.header("My Projects", divider="rainbow")
 st.write(
     """
@@ -9,6 +12,7 @@ st.write(
     """
 )
 
+# List projects and links
 projects = [
     {
         "name": "Probabilistic Sequence Models",
@@ -27,6 +31,7 @@ projects = [
     }
 ]
 
+# Display each project
 for project in projects:
     st.subheader(project["name"])
     st.write(project["description"])

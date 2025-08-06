@@ -1,8 +1,10 @@
+# Ensure streamlit is imported
 import streamlit as st
 
+# Set up title 
 st.set_page_config(page_title="Product Outage Classifier", layout="centered")
 
-# Custom CSS for a cleaner look
+# Create cleaner look
 st.markdown("""
     <style>
         .big-font {
@@ -21,8 +23,9 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# Set introduction
 st.markdown('<div class="big-font">Welcome to my Product Outage Classifier App! </div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Use the sidebar to navigate to my home page, projects, résumé, and app.</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Use the sidebar to navigate to my home page (this page), projects, résumé, and app.</div>', unsafe_allow_html=True)
 
 st.header("Biography", divider="rainbow")
 st.markdown(
