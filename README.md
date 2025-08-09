@@ -25,6 +25,8 @@ This app showcases my Product Outage Classifier, along with my biography, projec
 
 ## Contact
 
+If you need help running the streamlit app, please contact me or refer to my "Project Presentation Video" for its demo.
+
 - [LinkedIn](https://www.linkedin.com/in/brea-koenes/)
 - [breakoenes.com](mailto:breakoenes.com)
 
