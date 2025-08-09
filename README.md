@@ -9,24 +9,6 @@ This app showcases my Product Outage Classifier, along with my biography, projec
 - **Résumé:** View my professional experience, education, and skills.
 - **App:** Interact with my deployed Product Outage Classifier.
 
-## File Structure
-
-```
-/workspaces/app/
-├── main.py                # Main entry point for the Streamlit app
-├── headshot.png           # Profile photo for résumé page
-├── presentation.mp4       # Project presentation video
-├── final_model.pkl        # ML model
-├── phraser.pkl            # Gensim phraser
-├── tfidf_vectorizer.pkl   # Tfidf vectorizer
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-├── pages/
-│   ├── home.py            # Home/biography page
-│   ├── projects.py        # Projects and portfolio page
-│   └── résumé.py          # Résumé page
-```
-
 ## How to Run Locally
 
 1. **Install dependencies** (if needed):
